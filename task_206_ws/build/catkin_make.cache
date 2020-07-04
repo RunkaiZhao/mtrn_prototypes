@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/owr/Documents/owr/task_206/task_206_ws/devel -DCMAKE_INSTALL_PREFIX=/home/owr/Documents/owr/task_206/task_206_ws/install -G Unix Makefiles
