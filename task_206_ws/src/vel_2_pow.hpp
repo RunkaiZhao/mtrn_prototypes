@@ -14,10 +14,10 @@ private:
     //Ceate a handle to process the node
     ros::NodeHandler node;
 
-    ros::Publisher leftFront_pow_pub;
-    ros::Publisher rightFront_pow_pub;
-    ros::Publisher leftBack_pow_pub;
-    ros::Publisher rightBack_pow_pub;
+    //ros::Publisher leftFront_pow_pub;
+    //ros::Publisher rightFront_pow_pub;
+    //ros::Publisher leftBack_pow_pub;
+    //ros::Publisher rightBack_pow_pub;
+    ros::Publisher vel_pow_pub[4] = {0};
     ros::Subscriber vel_pow_sub;
-
 }
